@@ -1,4 +1,4 @@
-package com.zebrunner.carina.demo.regression.esg;
+package com.zebrunner.carina.demo.regression.swag;
 
 import com.github.kklisura.cdt.services.ChromeDevToolsService;
 import com.zebrunner.carina.core.IAbstractTest;

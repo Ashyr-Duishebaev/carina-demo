@@ -1,4 +1,4 @@
-package com.zebrunner.carina.demo.regression.esg;
+package com.zebrunner.carina.demo.regression.swag;
 
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.demo.gui.pages.common.HomePageBase;

@@ -1,4 +1,4 @@
-package com.zebrunner.carina.demo.regression.esg;
+package com.zebrunner.carina.demo.regression.swag;
 
 import com.zebrunner.agent.core.registrar.Artifact;
 import com.zebrunner.carina.core.IAbstractTest;
