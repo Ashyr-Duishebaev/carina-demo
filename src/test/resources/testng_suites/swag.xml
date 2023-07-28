@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagWebTestSuite">
+    <test name="SwagWebTests">
+        <classes>
+            <class name="com.zebrunner.carina.demo.SwagWebTesting" />
+        </classes>
+    </test>
+</suite>

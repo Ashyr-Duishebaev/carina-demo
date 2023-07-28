@@ -1,5 +1,6 @@
-package com.zebrunner.carina.demo.gui.pages.swag;
+package com.zebrunner.carina.demo.swag.desktop;
 
+import com.zebrunner.carina.demo.swag.common.ProductsPageBase;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class ProductsPage extends AbstractPage {
+public class ProductsPage extends ProductsPageBase {
 
     @FindBy(className = "inventory_item_name")
     private List<WebElement> productNames;

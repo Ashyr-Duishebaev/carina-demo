@@ -53,8 +53,8 @@ public class WebSampleTest implements IAbstractTest {
         // Open GSM Arena home page and verify page is opened
         HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
         homePage.open();
-        Assert.assertTrue(homePage.isPageOpened(), "Home page is not opened");
-
+//        Assert.assertTrue(homePage.isPageOpened(), "Home page is not opened");
+        homePage.assertPageOpened();
         // Select phone brand
         BrandModelsPageBase productsPage = homePage.selectBrand("Samsung");
         // Select phone model

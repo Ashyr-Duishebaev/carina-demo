@@ -1,12 +1,13 @@
 package com.zebrunner.carina.demo;
 
-import com.zebrunner.carina.demo.gui.pages.swag.*;
+import com.zebrunner.carina.demo.swag.desktop.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
 import org.testng.Assert;
+
 
 public class SwagWebTesting implements IAbstractTest {
 
@@ -84,3 +85,4 @@ public class SwagWebTesting implements IAbstractTest {
         Assert.assertTrue(checkoutPage.isPageOpened(), "Checkout page is not opened.");
     }
 }
+

@@ -1,10 +1,11 @@
-package com.zebrunner.carina.demo.gui.pages.swag;
+package com.zebrunner.carina.demo.swag.desktop;
 
+import com.zebrunner.carina.demo.swag.common.ProductDetailsPageBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ProductDetailsPage extends SwagBasePage {
+public class ProductDetailsPage extends ProductDetailsPageBase {
 
     @FindBy(className = "inventory_details_name")
     private WebElement productNameLabel;
