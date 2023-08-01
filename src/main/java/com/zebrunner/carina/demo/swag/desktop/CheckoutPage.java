@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 
 public class CheckoutPage extends AbstractPage {
 
-    // Add any required locators for elements on the Checkout page here
     private By checkoutLabelLocator = By.xpath("//div[@class='checkout-label']");
 
     public CheckoutPage(WebDriver driver) {

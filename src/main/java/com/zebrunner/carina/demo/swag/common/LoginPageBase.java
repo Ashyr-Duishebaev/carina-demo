@@ -19,8 +19,6 @@ public class LoginPageBase extends AbstractPage {
         super(driver);
     }
 
-    // Add SignInPageBase-specific functionalities and methods here
-
     public void enterUsername(String username) {
         usernameInput.sendKeys(username);
     }

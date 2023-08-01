@@ -23,7 +23,6 @@ public class ProductsPageBase extends AbstractPage {
         super(driver);
     }
 
-    // Add ProductsPageBase-specific functionalities and methods here
 
     public boolean isProductDisplayed(String productName) {
         for (WebElement product : productNames) {
@@ -44,13 +43,9 @@ public class ProductsPageBase extends AbstractPage {
     }
 
     public void logout() {
-        // Implement the logic to perform the logout action
-        // For example, click on the logout button or navigate to the logout functionality
     }
 
     public void sortProductsByName() {
-        // Implement the logic to sort the products by name (A to Z)
-        // Use a custom comparator to sort the product names
         List<String> productNamesList = new ArrayList<>();
         for (WebElement product : productNames) {
             productNamesList.add(product.getText());
@@ -58,7 +53,6 @@ public class ProductsPageBase extends AbstractPage {
 
         Collections.sort(productNamesList, Comparator.naturalOrder());
 
-        // Update the productNames list with the sorted order
         for (int i = 0; i < productNamesList.size(); i++) {
             productNames.get(i).getText().equals(productNamesList.get(i));
         }
@@ -66,7 +60,6 @@ public class ProductsPageBase extends AbstractPage {
 
 
     public String getProductAtIndex(int index) {
-        // Get the product name at the given index
         if (index >= 0 && index < productNames.size()) {
             return productNames.get(index).getText();
         } else {

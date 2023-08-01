@@ -7,8 +7,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class ProductDetailsPageBase extends AbstractPage {
 
-    // Add any required locators for elements on the Product Details page here
-    // Example:
      @FindBy(xpath = "//div[@class='product-name']")
      private WebElement productName;
 
@@ -16,6 +14,4 @@ public class ProductDetailsPageBase extends AbstractPage {
         super(driver);
     }
 
-    // Add ProductDetailsPageBase-specific functionalities and methods here
-    // For example, you can add methods to get product details or perform specific actions on the product details page
 }
